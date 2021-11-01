@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemonpage Component debe de hacer match con el snapshot cuando cargan los pokemons 1`] = `
+<div>
+  <div>
+    <h1>¿ Quien es este pokemon ?</h1>
+    <pokemon-picture-stub pokemonid="1" showpokemon="false"></pokemon-picture-stub>
+    <!--props del modelo PokemonPicture vinculadas aquí con los valores de la data-->
+    <pokemon-options-stub pokemons="[object Object],[object Object],[object Object],[object Object]"></pokemon-options-stub>
+    <!--Prop pokemons vinculada a la data de PokemonPage que recibe el [{}] -->
+    <!--Aquí estaremos escuchando el evento selection que disparará el método checkAnswer-->
+    <!--v-if-->
+  </div>
+</div>
+`;
+
+exports[`Pokemonpage Component debe hacer match con el snapshot 1`] = `
+<div>
+  <h1>Espere por favor...</h1>
+</div>
+`;
